@@ -30,14 +30,14 @@
     line-height: 55px;
     text-indent: 22px;
 }
-.bodybox ul li dt{
+ ul li dt{
     text-indent: 100px;
+    background: url("../images/ps_01.png") no-repeat;
 }
-.bodybox ul li dt img{
+ li dt img{
     padding: 0px 50px;
     border:1px solid #ccc;
 }
 .bodybox a{
-    display:inline-block;
     margin-left: 80px;
 }
