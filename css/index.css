@@ -32,12 +32,21 @@
 }
  ul li dt{
     text-indent: 100px;
-    background: url("../images/ps_01.png") no-repeat;
+
 }
  li dt img{
     padding: 0px 50px;
     border:1px solid #ccc;
 }
 .bodybox a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border-radius: 3px;
     margin-left: 80px;
 }
