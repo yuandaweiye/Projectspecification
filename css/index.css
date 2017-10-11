@@ -1,9 +1,26 @@
-*{ margin: 0;padding: 0; list-style: none;}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .bodybox{
     width: 1000px;
-    margin:0 auto;
-    margin-bottom: 300px;
+    margin: 100px 0 300px 400px ;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 0 3px 3px #cccccc;
+    animation-name: skyset;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
+@keyframes skyset{
+    0% {opacity: 0}
+    50%{ opacity: .5}
+    100% {opacity: 1}
+}
+
+
 .bodybox h2{
     width: 100%;
     text-align: center;
@@ -29,13 +46,17 @@
     height: 55px;
     line-height: 55px;
     text-indent: 22px;
-}
- ul li dt{
-    text-indent: 100px;
 
 }
+ ul li dt{
+     width: 70%;
+     margin-left: 60px;
+    text-indent: 100px;
+     color: #666666;
+     font-size: 14px;
+}
  li dt img{
-    padding: 0px 50px;
+
     border:1px solid #ccc;
 }
 .bodybox a{
@@ -50,3 +71,8 @@
     border-radius: 3px;
     margin-left: 80px;
 }
+
+
+
+
+
