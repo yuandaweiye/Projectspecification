@@ -19,11 +19,19 @@
     animation-timing-function: linear;
     background-size: 100% 200px ;
 }
+
 @keyframes skyset{
     0% {opacity: 0}
     50%{ opacity: .5}
     100% {opacity: 1}
 }
+
+.forLine{
+    height: 10px;
+    width: 100%;
+    background-color: #cccccc;
+}
+
 
 
 .bodybox h2{
@@ -72,6 +80,7 @@ li dt img{
     border:1px solid #ccc;
 }
 .bodybox a{
+    margin-top: 10px;
     display: inline-block;
     width: 80px;
     height: 30px;
@@ -81,9 +90,12 @@ li dt img{
     text-decoration: none;
     color: #000;
     border-radius: 3px;
-    margin-left: 80px;
+    margin-left: 30px;
 }
-
+.nextPage {
+    float: right;
+    margin-right:30px ;
+}
 
 
 

@@ -8,7 +8,15 @@ window.onload=function () {
     * */
     var getTime = function (things) {
         var date = new Date();
-        date = "今天是" + date.getDate() + "号" + (date.getMonth() + 1) + "月" + date.getFullYear() + "年，我" + things
+        date = "今天是" +
+            date.getDate() +
+            "号" + (date.getMonth() + 1) +
+            "月" + date.getFullYear() +
+            "年，我" + things;
+
+        data=`今天是${date.getDate()}号${(date.getMonth() + 1)}月${date.getFullYear()}年，我${things}`;
+
+
         return date
     }
     var doDate = getTime("吃了饭");
@@ -17,6 +25,9 @@ window.onload=function () {
     var mDodybox=$(".bodybox"),
         oLi= mDodybox.find("li");
         oLis= mDodybox.firstChild;
+        // 类名
+
+
 
 
 }
