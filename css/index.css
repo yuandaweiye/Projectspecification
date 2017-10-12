@@ -6,13 +6,16 @@
 .bodybox{
     width: 1000px;
     margin: 100px 0 300px 400px ;
+    padding: 20px;
     overflow: hidden;
-    padding-bottom: 20px;
+    background-color: #f3fbfe;
     box-shadow: 0 0 3px 3px #cccccc;
     animation-name: skyset;
     animation-duration: 2000ms;
     animation-iteration-count: 1;
     animation-timing-function: linear;
+    background: url("../images/bg.png") no-repeat top left;
+    background-size: 100% 200px ;
 }
 @keyframes skyset{
     0% {opacity: 0}
@@ -27,6 +30,13 @@
     height: 100px;
     line-height: 100px;
 }
+.bodybox li{ font-size:16px; }
+.bodybox p{ font-size:16px; }
+.bodybox h1{font-size:16px; }
+
+.bodybox{font-size: 16px}
+
+
 
 .bodybox h5{
     height: 50px;
@@ -51,12 +61,12 @@
  ul li dt{
      width: 70%;
      margin-left: 60px;
-    text-indent: 100px;
+
      color: #666666;
      font-size: 14px;
 }
- li dt img{
-
+li dt img{
+    margin-top: 20px;
     border:1px solid #ccc;
 }
 .bodybox a{

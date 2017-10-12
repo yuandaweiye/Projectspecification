@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>唐山现代男科项目规范</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../text.js"></script>
+</head>
+<body>
+
+        <div class="bodybox">
+            <h2>唐山现代男科项目规范</h2>
+            <h5>( 2 )代码规范_03(js篇)</h5>
+            <ul>
+                <li>
+                    <dd class="j_rules">1.变量声明时,不要缩在一行,用逗号隔开</dd>
+                    <dt><img src="../images/pj_01.png" alt=""></dt>
+                </li>
+                <li>
+                    <dd>2.创建功能型函数注释要写清楚，函数执行功能，参数含义，返回值得含义</dd>
+                    <dt><img src="../images/pj_02.png" alt=""></dt>
+                </li>
+                <li>
+                    <dd>3.由js控制样式类名都必须以j_开头，列如j_footer</dd>
+                    <dt><img src="../images/pj_03.png" alt=""></dt>
+                </li>
+                <li>
+                    <dd>4.Dom节点声明操作，放在js前面，且批量操作</dd>
+                    <dt>
+                        当我们需要获取某一属性，这一属性需要计算才能得到，并且队列中存在尚未提交的DOM修改操作，则此时，DOM修改操作的队列将会被提交。
+                        为了提高效率，减少更新render tree的次数，可以先统一读取属性，然后统一修改DOM，这样，就可以减少更新render tree的次数。
+                    </dt>
+                    <dt><img src="../images/pj_04.png" alt=""></dt>
+                </li>
+                <li>
+                    <dd>5.比较判断时，尽量使用“===”号进行比较</dd>
+                    <dt>
+                        当使用“==”号进行比较的时候，某些运算会会发生隐式转换，相对于主动转化格式，这种隐式转换对性能消耗更大
+                    </dt>
+                </li>
+                <li>
+                    <dd>6.尽量避免if-else的判断语句的嵌套，用三目运算做为代替</dd>
+                    <dt>
+                        在运算比较不多的状况下，三目运算符的效率和对性能消耗都远远逼if-else要低,所以尽可能使用三目运算符，当然在为了逻辑更加清晰也可使用switch等
+                    </dt>
+                </li>
+                <li>
+                    <dd>7.尽量使用函数式编程</dd>
+                    <dt>
+                        函数式编程的好处：<br/>
+                        1. 代码简洁，开发快速<br/>
+                        2. 接近自然语言，易于理解<br/>
+                        3. 更方便的代码管理<br/>
+                        4. 易于"并发编程"<br/>
+                        5. 代码的热升级<br/>
+                    </dt>
+                </li>
+                <li>
+                    <dd>8.尽可能的精简代码，能合并处理的尽量合并处理</dd>
+                    <dt>
+                        <img src="../images/pj_05.png" alt="">
+                    </dt>
+                </li>
+                <li>
+                    <dd>9.尽可能的精简代码，能合并处理的尽量合并处理</dd>
+                    <dt>
+                        <img src="../images/pj_05.png" alt="">
+                    </dt>
+                </li>
+
+            </ul>
+
+            <a href="./Codespecification02.html">上一页</a>
+            <a href="./Codespecification04.html">下一页</a>
+        </div>
+</body>
+</html>
