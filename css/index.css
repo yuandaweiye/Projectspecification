@@ -17,7 +17,6 @@
     animation-duration: 2000ms;
     animation-iteration-count: 1;
     animation-timing-function: linear;
-    background: url("../images/bg.png") no-repeat top left;
     background-size: 100% 200px ;
 }
 @keyframes skyset{

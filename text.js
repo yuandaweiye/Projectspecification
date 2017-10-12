@@ -6,16 +6,17 @@ window.onload=function () {
     * 返回值：得到当天日期且格式为：
     * 今天是xxx日xx月xx年，我xx
     * */
-    var getTime=function(things){
-        var date= new Date();
-        date = "今天是"+date.getDate()+"号"+(date.getMonth()+1)+"月"+date.getFullYear()+"年，我"+things
+    var getTime = function (things) {
+        var date = new Date();
+        date = "今天是" + date.getDate() + "号" + (date.getMonth() + 1) + "月" + date.getFullYear() + "年，我" + things
         return date
     }
-    var doDate=getTime("吃了饭");
+    var doDate = getTime("吃了饭");
     console.log(doDate);
 
-
-
+    var mDodybox=$(".bodybox"),
+        oLi= mDodybox.find("li");
+        oLis= mDodybox.firstChild;
 
 
 }
