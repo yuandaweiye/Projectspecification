@@ -6,18 +6,14 @@ window.onload=function () {
     * 返回值：得到当天日期且格式为：
     * 今天是xxx日xx月xx年，我xx
     * */
-    // var getTime=function(things){
-    //     var date= new Date();
-    //     date = "今天是"+date.getDate()+"号"+(date.getMonth()+1)+"月"+date.getFullYear()+"年，我"+things
-    //     return date
-    // }
-    // var doDate=getTime("吃了饭");
-    // console.log(doDate);
-    var dHeader=document.querySelector(".j_footer");
-    var dBody=document.querySelector(".j_body");
-    var dContent=document.querySelector(".j_Content");
-    var dAside=document.querySelector(".j_Aside");
-    var dArticle=document.querySelector(".j_Article");
+    var getTime=function(things){
+        var date= new Date();
+        date = "今天是"+date.getDate()+"号"+(date.getMonth()+1)+"月"+date.getFullYear()+"年，我"+things
+        return date
+    }
+    var doDate=getTime("吃了饭");
+    console.log(doDate);
+
 
 
 
